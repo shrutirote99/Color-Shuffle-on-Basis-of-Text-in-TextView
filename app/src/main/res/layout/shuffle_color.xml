@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ColorShuffle">
+
+    <TextView
+        android:id="@+id/TxtVw1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <TextView
+        android:id="@+id/TxtVw2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <TextView
+        android:id="@+id/TxtVw3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <EditText
+        android:id="@+id/EdtTxt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="10dp"
+        android:inputType="text"
+        android:autofillHints="text"
+        android:hint="@string/num"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/BtnClr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="@color/whitish"
+        android:text="@string/BtnClr"
+        />
+
+</LinearLayout>

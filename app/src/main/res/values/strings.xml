@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Color Shuffle Application</string>
+    <string name="num">Enter Number(in letters)</string>
+    <string name="BtnClr">Press Here</string>
+</resources>
